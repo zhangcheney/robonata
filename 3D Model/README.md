@@ -1,7 +1,8 @@
-![My Project Banner](./banner.png)
+![Geom_model_preview](./Geom_model_preview.png)
 
-# Robonata
+# Geometric Model
 
-Hi there! This is Cheney. Robonata is a project created for Cornell CS 5756: Robot Learning course, and I plan to keep developing it in the future.
+The 3D model was simplified from $$Plathemis$$ $$lydia$$ (the common whitetail), comprising 1 welded body and 4 wings. Each wing was modeled as a thin `Ellipsoid` for the convenience of fluid force simulation. The morphological data used for this model was from [published work](https://doi.org/10.1126/science.abg0946).
 
-"Robonata" stands for Robot plus $$Odonata$$, which is the order name of dragonflies and damselflies. It provides a body model of dragonfly that aims to facilitate research in flapping-wing robotics, biomechanics, and learning-based control.
+
+`newdragonflybody.x_b` is the model file that can be loaded by any parasolid-kernel-based software (like SOLIDWORKS, Onshape, etc). It can also be exported as `.obj` format for creating MuJoCo `mjcf` file. 
