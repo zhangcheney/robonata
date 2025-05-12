@@ -1,6 +1,6 @@
-![My Project Banner](./banner.png)
+<img src="./Hovering_flight_test.png" alt="Hovering_flight_test" width="300" height="200">
 
-# Robonata
+# MuJoCo Model
 
 Hi there! This is Cheney. Robonata is a project created for Cornell CS 5756: Robot Learning course, and I plan to keep developing it in the future.
 
